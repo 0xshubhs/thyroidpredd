@@ -1,12 +1,5 @@
-import os
 import numpy as np
-from PIL import Image
-import cv2
-from keras.models import load_model
-from flask import Flask, request, render_template, jsonify
-from werkzeug.utils import secure_filename
-import requests
-from io import BytesIO
+from flask import Flask, request
 import pickle
 
 app = Flask(__name__)
